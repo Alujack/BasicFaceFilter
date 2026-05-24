@@ -614,6 +614,7 @@ GameObject:
   - component: {fileID: 2512387470422636670}
   - component: {fileID: 2512387470422636672}
   - component: {fileID: 2512387470422636671}
+  - component: {fileID: 2512387470422636673}
   m_Layer: 0
   m_Name: XR Origin (AR Rig)
   m_TagString: Untagged
@@ -719,6 +720,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3c44306fb1e439a9f18b2212b8ab70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARPoseDriver
+--- !u!114 &2512387470422636673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512387470422636669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f8a443f965141afa951ed63d230116, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  filters:
+  - name: Cat
+    props:
+    - prefab: {fileID: 4672036070492158906, guid: dec9cb245c0fee64b89e7397e32a289e, type: 3}
+      positionOffset: {x: 0, y: 0.06, z: 0}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 7336721415491951648, guid: cdbd3952e4784a9468547b3b0f4c0857, type: 3}
+      positionOffset: {x: 0, y: -0.025, z: 0.075}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 1057963046678394846, guid: c19af72d0001ce34c82ba1c7a3f5cea4, type: 3}
+      positionOffset: {x: 0, y: -0.015, z: 0.075}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+  - name: Devil
+    props:
+    - prefab: {fileID: 6940153199964092255, guid: 0cf6f8839032dd44da3842a706ab9963, type: 3}
+      positionOffset: {x: 0, y: 0.08, z: 0.01}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 2975571329952892336, guid: e1ecc5d8ad4385a4688bbf80596ee6f4, type: 3}
+      positionOffset: {x: 0, y: 0.015, z: 0.07}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 3810804275677342627, guid: ddbe0a16110c98642ac4050ccca8feab, type: 3}
+      positionOffset: {x: 0, y: -0.05, z: 0.07}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+  - name: Goblin
+    props:
+    - prefab: {fileID: 6175336258958769158, guid: edc1d60fdecc9b24a86754ea5f76ec3f, type: 3}
+      positionOffset: {x: 0, y: 0.04, z: 0}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 1057963046678394846, guid: c19af72d0001ce34c82ba1c7a3f5cea4, type: 3}
+      positionOffset: {x: 0, y: -0.015, z: 0.075}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 3810804275677342627, guid: ddbe0a16110c98642ac4050ccca8feab, type: 3}
+      positionOffset: {x: 0, y: -0.05, z: 0.07}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+  - name: Classy
+    props:
+    - prefab: {fileID: 3057748445259105271, guid: bb955633cf56f1f48a897b385ca04e2b, type: 3}
+      positionOffset: {x: 0, y: 0.12, z: 0}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+    - prefab: {fileID: 1057963046678394846, guid: c19af72d0001ce34c82ba1c7a3f5cea4, type: 3}
+      positionOffset: {x: 0, y: -0.015, z: 0.075}
+      rotationOffset: {x: 0, y: 0, z: 0}
+      scale: 1
+  initialFilterIndex: 0
 --- !u!4 &2512387470860572925
 Transform:
   m_ObjectHideFlags: 0
